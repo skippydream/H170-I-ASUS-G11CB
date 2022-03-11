@@ -1,4 +1,4 @@
-# Opencore 0.7.9 EFI <img align="right" width="100" height="100" src="https://www.macos86.it/uploads/monthly_2020_08/OpenCore_avatar.png.c375ed1196132fefe5bd41fcefb31cbe.png">
+# <a href="https://github.com/acidanthera/OpenCorePkg/releases">Opencore 0.7.9</a> EFI <img align="right" width="100" height="100" src="https://www.macos86.it/uploads/monthly_2020_08/OpenCore_avatar.png.c375ed1196132fefe5bd41fcefb31cbe.png">
 \
 \
 \
