@@ -16,3 +16,31 @@
 
 - Graphics \
 -- On-board graphics card model **Intel® HD Graphics 530**
+
+# Install guide
+
+## BIOS setup
+That is the hardest part.
+## Create your own SSDT (.aml files) to insert in ACPI folder.
+#### Download <a href="https://github.com/corpnewt/SSDTTime">SSDTTime</a> 
+
+> Follow this guide
+> https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html#running-ssdttime
+
+## Setup your own SMBios
+#### Download <a href="https://github.com/corpnewt/GenSMBIOS">GenSMBios</a> 
+How to use it:
+
+	- Run GenSMBios
+	- "2. Select config.plist" -> Drag and drop config.plist from /EFI/OC/
+	- "1. Install/Update MacSerial"
+	- "3. Generate SMBIOS" -> Enter iMac17,1 1
+## Finish up
+
+#### Download <a href="https://github.com/corpnewt/ProperTree">ProperTree</a> 
+Then:
+
+	- Run ProperTree
+	- Open (CTRL + O) /EFI/OC/config.plist
+	- Snapshot (CTRL + R)
+  - Save (CTRL + S)
